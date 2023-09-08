@@ -36,7 +36,7 @@ public class Nykka {
 		driver.findElement(By.xpath("//span[text()='customer top rated']")).click();
 		driver.findElement(By.xpath("//span[text()='Category']")).click();
 		driver.findElement(By.xpath("//span[text()='Hair']")).click();
-		driver.findElement(By.xpath("(//span[text()='Hair Care'])[2]")).click();
+		driver.findElement(By.xpath("//span[text()='Hair Care']")).click();
 		driver.findElement(By.xpath("//span[text()='Shampoo']")).click();
 		driver.findElement(By.xpath("//span[text()='Concern']")).click();
 		driver.findElement(By.xpath("//span[text()='Color Protection']")).click();
